@@ -1,0 +1,24 @@
+# 1-order Markov frequencies
+# seqs: 28220    min: 108    max: 138    avg: 113.3    sum: 3196752    alph: DNA
+# order 0
+A 2.608e-01
+C 2.392e-01
+G 2.392e-01
+T 2.608e-01
+# order 1
+AA 7.709e-02
+AC 5.249e-02
+AG 7.811e-02
+AT 5.315e-02
+CA 7.566e-02
+CC 6.600e-02
+CG 1.942e-02
+CT 7.811e-02
+GA 6.289e-02
+GC 5.775e-02
+GG 6.600e-02
+GT 5.249e-02
+TA 4.522e-02
+TC 6.289e-02
+TG 7.566e-02
+TT 7.709e-02
