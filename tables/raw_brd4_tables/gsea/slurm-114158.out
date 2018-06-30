@@ -1,0 +1,227 @@
+Running GSEA for BRD4 0H vs BRD4 24H
+5703 [INFO ] Begun importing: Dataset from: BRD4_0H_vs_BRD4_24H.gct
+# of elements = 1
+/storage/cylin/grail/projects/rasmc_all/tables/raw_brd4_tables/BRD4_0H_vs_BRD4_24H.cls#BRD4_24H_versus_BRD4_0H 
+6569 [INFO ] There were duplicate row identifiers in the specified dataset. One id was arbitarilly choosen. Details are below
+Generally, this is OK, but if you want to avoid this automagic, edit your dataset so that all row ids are unique
+
+# of row ids in original dataset: 9223
+# of row UNIQUE ids in original dataset: 9035
+# The duplicates were
+Acot7
+Acp1
+Acp1
+Acyp1
+Acyp1
+Adcy6
+Akap12
+Aldoa
+Aldoa
+Bag6
+Bcl2l1
+Bcl2l1
+Bcl2l1
+Bcl2l11
+Bdnf
+Bdnf
+Bdnf
+Bdnf
+Bdnf
+Bdnf
+Bdnf
+Bod1
+Cacna2d1
+Cacna2d1
+Cav1
+Cdc14a
+Cdk10
+Cdk10
+Cdkn1c
+Cep63
+Cep63
+Ciita
+Cops7a
+Crem
+Crem
+Crip1
+Csnk2b
+Cspg5
+Cuta
+Cuta
+Dcaf11
+Ddah2
+Ddr1
+Dmd
+Dusp14
+Dusp14
+Dut
+Eapp
+Ehbp1l1
+Eno1
+Epb41l1
+Esd
+Etv1
+Fam110a
+Fam110a
+Fam110a
+Fhl1
+Fhl1
+Fmo4
+Fxyd5
+Ggn
+Gnas
+Gng2
+Gpr39
+Gps1
+Gpx4
+Grtp1
+Hcfc1r1
+Hnrnpf
+Hnrnpf
+Hyou1
+Il1rap
+Il1rl1
+Inppl1
+Iqsec2
+Kcnk2
+Klc1
+Klc1
+Lmo2
+LOC100910973
+Lrrc27
+Lsm2
+Maged2
+March2
+Mrps21
+Mrvi1
+Nabp2
+Naca
+Naca
+Ncoa4
+Ndrg2
+Ndrg4
+Nek6
+Nelfe
+Ngrn
+Nit1
+Nr1d1
+Odf2
+Ost4
+Oxr1
+Pard6a
+Park7
+Park7
+Patz1
+Pbx1
+Pdp1
+Pla2g6
+Plaur
+Plec
+Plec
+Plec
+Plec
+Plec
+Plec
+Plec
+Plec
+Plec
+Plec
+Pnkd
+Pparg
+Ppm1b
+Ppp4r3a
+Prrt2
+Rarg
+Rassf1
+Rhno1
+Rims2
+Rnh1
+Rnh1
+Rpl37a
+Rpp14
+Rps27a
+RT1-CE14
+Runx2
+Scn1b
+Scn1b
+Sepp1
+Sept9
+Sept9
+Sgk1
+Sgk1
+Sh2b1
+Shc1
+Slc19a1
+Slc39a7
+Slc3a2
+Smad2
+Smim8
+Smim8
+Smim8
+Smim8
+Smndc1
+Snapin
+Sphk1
+Sphk1
+Sqstm1
+Srebf1
+Stxbp5
+Svbp
+Syngap1
+Synj2
+Taf9
+Tank
+Tbc1d14
+Tceb1
+Tceb1
+Terf2
+Tfpi
+Thoc7
+Thra
+Thumpd3
+Thumpd3
+Tmem14c
+Tmem9
+Tmub1
+Tpm1
+Tpm3
+Tsc22d1
+Usp9x
+Vcan
+Vegfa
+Wbp1l
+Wls
+Wtap
+Zfp384
+Zfp384
+Zfp458
+Znrd1
+6590 [INFO ] No dataset collapsing was done .. using original as is
+to parse>/storage/cylin/grail/projects/rasmc_all/tables/raw_brd4_tables/CLUSTER_GENE_SETS.gmt< got: [/storage/cylin/grail/projects/rasmc_all/tables/raw_brd4_tables/CLUSTER_GENE_SETS.gmt]
+6590 [INFO ] Begun importing: GeneSetMatrix from: CLUSTER_GENE_SETS.gmt
+6597 [INFO ] Got gsets: 4 now preprocessing them ... min: 15 max: 500
+6604 [INFO ] Done preproc for smaller than: 15
+6633 [INFO ] Extracting ds: BRD4_0H_vs_BRD4_24H.BRD4_0H_vs_BRD4_24H by template: BRD4_0H_vs_BRD4_24H.cls#BRD4_24H_versus_BRD4_0H
+6639 [INFO ] Timestamp used as random seed: 1516122746630
+shuffleGeneSet for GeneSet 1/4 nperm: 1000
+GeneSetCohorted: 501 / 1000
+GeneSetCohorted_scored: 501 / 1000
+GeneSetCohorted: 501 / 1000
+GeneSetCohorted_scored: 501 / 1000
+GeneSetCohorted: 501 / 1000
+GeneSetCohorted_scored: 501 / 1000
+GeneSetCohorted: 501 / 1000
+GeneSetCohorted_scored: 501 / 1000
+Finished permutations ... creating reports
+3256 [INFO ] Extracting ds: BRD4_0H_vs_BRD4_24H.BRD4_0H_vs_BRD4_24H by template: BRD4_0H_vs_BRD4_24H.cls#BRD4_24H_versus_BRD4_0H
+Creating marker selection reports ...
+Creating FDR reports ...
+5307 [INFO ] File download started.  Retrieving GENE_SYMBOL.chip from remote server...
+7672 [INFO ] Download complete
+7771 [INFO ] Begun importing: Chip from: ftp://gseaftp.broadinstitute.org/pub/gsea/annotations/GENE_SYMBOL.chip
+7910 [INFO ] Parsed from unigene / gene symbol: 38870
+Done FDR reports for positive phenotype
+Done FDR reports for negative phenotype
+Creating global reports ...
+Done all reports!!
+Time taken: 13 secs

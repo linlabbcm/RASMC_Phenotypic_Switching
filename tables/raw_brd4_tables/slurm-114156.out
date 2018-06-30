@@ -1,0 +1,9 @@
+5899 [INFO ] Made Vdb dir JIT: /storage/cylin/grail/projects/rasmc_all/tables/raw_brd4_tables/jan16
+6013 [INFO ] Begun importing: Dataset from: BRD4_0H_vs_BRD4_2H.gct
+java.io.IOException: Could not make a directory to store the Tool reports in. The location attempted was: /storage/cylin/grail/projects/rasmc_all/gsea_test/BRD4_2H_versus_BRD4_0H_clusters.Gsea.1516122536207
+	at edu.mit.broad.genome.reports.api.ToolReport.createIfNeededAndGetReportDir(ToolReport.java:994)
+	at edu.mit.broad.genome.reports.api.ToolReport.<init>(ToolReport.java:161)
+	at xtools.api.AbstractTool.startExec(AbstractTool.java:245)
+	at xtools.gsea.Gsea.execute(Gsea.java:67)
+	at xtools.api.AbstractTool.tool_main(AbstractTool.java:402)
+	at xtools.gsea.Gsea.main(Gsea.java:140)
